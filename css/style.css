@@ -1,9 +1,54 @@
 * {
-    font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 .fs_menu {
-    font-size: 24px;
+  font-size: 24px;
 }
 .fs_menu_xl {
-    font-size: 16px;
+  font-size: 16px;
+}
+.fs_sub_menu {
+  font-size: 14px;
+}
+.fs_carousel {
+  font-size: 9px;
+}
+.fs_links_sm {
+  font-size: 12px;
+}
+.fs_carousel_header {
+  font-size: 26px;
+}
+.carousel_button {
+  width: 90px;
+  height: 35px;
+}
+.carousel_text_box {
+  top: 10px;
+  left: 10px;
+  width: 277px;
+  height: 229px;
+}
+.text_justify {
+  text-align: justify;
+}
+@media screen and (min-width: 1199px) {
+  .offcanvas_menu {
+    position: absolute;
+    bottom: 20px;
+  }
+  .fs_menu_nav_xl {
+    font-size: 14px;
+  }
+  .input_xl {
+    width: 160px;
+    height: 40px;
+    background-color: #f1f1f1;
+  }
+  .fs_menu_xl {
+    font-size: 14px;
+  }
+  .input_xl:hover {
+    border: 1px solid black;
+  }
 }
