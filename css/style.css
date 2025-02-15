@@ -44,9 +44,16 @@
   color: black;
   font-weight: bold;
 }
-@media screen and (min-width:720px) {
+@media screen and (min-width: 375px) and (max-width:575pc) {
   .fs_links_sm {
     font-size: 9px;
+  }
+  .fs_carousel {
+    font-size: 14px;
+  }
+  .carousel_caption {
+    width: 325px;
+    left: 40px;
   }
 }
 @media screen and (min-width: 1199px) {
