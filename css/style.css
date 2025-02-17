@@ -44,7 +44,10 @@
   color: black;
   font-weight: bold;
 }
-@media screen and (min-width: 375px) and (max-width:575pc) {
+.carousel_caption {
+  bottom: 70px;
+}
+@media screen and (min-width: 370px) and (max-width: 399px) {
   .fs_links_sm {
     font-size: 9px;
   }
@@ -53,7 +56,63 @@
   }
   .carousel_caption {
     width: 325px;
+    left: 13px;
+    bottom: 75px;
+  }
+  .carousel_btn {
     left: 40px;
+  }
+  .carousel_btn2 {
+    left: 35px;
+  }
+}
+@media screen and (min-width: 400px) and (max-width: 440px) {
+  .carousel_caption_width {
+    width: 346px;
+    left: 5%;
+  }
+  .fs_carousel1 {
+    font-size: 15px;
+  }
+  .carousel_btn {
+    left: 14%;
+  }
+  .carousel_btn2 {
+    left: 14%;
+  }
+}
+@media screen and (min-width: 441px) and (max-width: 465px) {
+  .carousel_caption_width {
+    width: 390px;
+    left: 5%;
+  }
+  .fs_carousel1 {
+    font-size: 17px;
+  }
+  .carousel_btn {
+    left: 14%;
+  }
+  .carousel_btn2 {
+    left: 14%;
+  }
+}
+@media screen and (min-width: 466px) and (max-width: 575px) {
+  .carousel_caption_width {
+    width: 462px;
+    left: 5%;
+    bottom: 15%;
+  }
+  .fs_carousel {
+    font-size: 20px;
+  }
+  .carousel_btn {
+    left: 14%;
+  }
+  .carousel_btn2 {
+    left: 14%;
+  }
+  .carousel_cap {
+    left: 7%;
   }
 }
 @media screen and (min-width: 1199px) {
