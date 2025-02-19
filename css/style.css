@@ -23,6 +23,9 @@
   font-size: 18px;
   color: black;
 }
+.p_fs {
+  font-size: 9px;
+}
 .carousel_button {
   width: 90px;
   height: 35px;
@@ -47,6 +50,12 @@
 .carousel_caption {
   bottom: 70px;
 }
+.carousel2_header {
+  font-size: 20px;
+}
+.carousel2_text {
+  font-size: 13px;
+}
 @media screen and (min-width: 370px) and (max-width: 399px) {
   .fs_links_sm {
     font-size: 9px;
@@ -65,6 +74,12 @@
   .carousel_btn2 {
     left: 35px;
   }
+  .carousel2_header {
+    font-size: 22px;
+  }
+  .carousel2_text {
+    font-size: 14px;
+  }
 }
 @media screen and (min-width: 400px) and (max-width: 440px) {
   .carousel_caption_width {
@@ -80,6 +95,12 @@
   .carousel_btn2 {
     left: 14%;
   }
+  .carousel2_header {
+    font-size: 26px;
+  }
+  .carousel2_text {
+    font-size: 16px;
+  }
 }
 @media screen and (min-width: 441px) and (max-width: 465px) {
   .carousel_caption_width {
@@ -94,6 +115,12 @@
   }
   .carousel_btn2 {
     left: 14%;
+  }
+  .carousel2_header {
+    font-size: 28px;
+  }
+  .carousel2_text {
+    font-size: 18px;
   }
 }
 @media screen and (min-width: 466px) and (max-width: 575px) {
@@ -114,8 +141,125 @@
   .carousel_cap {
     left: 7%;
   }
+  .carousel2_header {
+    font-size: 32px;
+  }
+  .carousel2_text {
+    font-size: 20px;
+  }
 }
-@media screen and (min-width: 1199px) {
+@media screen and (min-width: 576px) and (max-width: 690px) {
+  .carousel_caption_width {
+    width: 230px;
+    bottom: 15%;
+  }
+  .fs_carousel {
+    font-size: 7px;
+  }
+  .carousel_btn {
+    bottom: 10%;
+  }
+  .carousel_btn3 {
+    bottom: 17%;
+  }
+  .carousel_btn4 {
+    bottom: 25%;
+  }
+  .carousel_btn6 {
+    bottom: 20%;
+  }
+  .carousel_cap {
+    left: 7%;
+  }
+  .carousel_button {
+    width: 54px;
+    height: 22px;
+    font-size: 7px;
+  }
+  .carousel_text_box {
+    top: 15%;
+  }
+  .carousel2_header {
+    font-size: 14px;
+  }
+  .carousel2_text {
+    font-size: 7px;
+  }
+}
+@media screen and (min-width: 691px) and (max-width: 1279px) {
+  .carousel1_box {
+    width: 330px;
+    bottom: 20%;
+    left: 7%;
+  }
+  .carousel_button {
+    width: 54px;
+    height: 22px;
+    font-size: 7px;
+  }
+  .carousel_text_box {
+    width: 489px;
+    top: 20%;
+    left: 5%;
+  }
+  .fs_carousel {
+    font-size: 12px;
+  }
+  .fs_carousel1 {
+    font-size: 12px;
+  }
+  .fs_menu {
+    font-size: 34px;
+  }
+  .carousel_button {
+    width: 72px;
+    height: 29px;
+    font-size: 9px;
+  }
+  .carousel2_header {
+    font-size: 14px;
+  }
+  .carousel2_text {
+    font-size: 7px;
+    text-align: justify;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .p_fs {
+    font-size: 18px;
+  }
+  .carousel1_box {
+    width: 620px;
+    bottom: 25%;
+    left: 7%;
+  }
+  .carousel_button {
+    width: 101px;
+    height: 40px;
+    font-size: 14px;
+  }
+  .carousel_text_box {
+    width: 489px;
+    top: 25%;
+    left: 7%;
+  }
+  .fs_carousel {
+    font-size: 12px;
+  }
+  .fs_carousel1 {
+    font-size: 18px;
+  }
+  .fs_menu {
+    font-size: 34px;
+  }
+  .fs_sub_menu {
+    font-size: 18px;
+  }
+  .heading_section1 {
+    font-size: 38px;
+  }
+}
+@media screen and (min-width: 1200px) {
   .offcanvas_menu {
     position: absolute;
     bottom: 20px;
