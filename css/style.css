@@ -40,6 +40,10 @@
   background-color: black;
   color: white;
 }
+.carousel_button_section3:hover {
+  background-color: white;
+  color: black;
+}
 .text_justify {
   text-align: justify;
 }
@@ -134,6 +138,25 @@
 .banner2_btn {
   left: 31%;
 }
+.card_block6_box {
+  width: 125px;
+  top: 32%;
+  left: 57%;
+}
+.card_show_block6_heading {
+  font-size: 12px;
+}
+.card_show_block6_text {
+  font-size: 8px;
+}
+.product_banner4 {
+  top: 5%;
+  left: 5%;
+}
+.product_banner4_box {
+  width: 277px;
+  left: 7%;
+}
 @media screen and (min-width: 370px) and (max-width: 399px) {
   .fs_links_sm {
     font-size: 9px;
@@ -175,6 +198,20 @@
   }
   .banner_section2 {
     left: 11%;
+  }
+  .card_show_block6_heading {
+    font-size: 15px;
+  }
+  .card_show_block6_text {
+    font-size: 10px;
+  }
+  .product_banner4 {
+    top: 5%;
+    left: 4%;
+  }
+  .product_banner4_box {
+    width: 325px;
+    left: 7%;
   }
 }
 @media screen and (min-width: 400px) and (max-width: 440px) {
@@ -237,6 +274,16 @@
   }
   .fs_banner2_text {
     font-size: 15px;
+  }
+  .card_show_block6_heading {
+    font-size: 15px;
+  }
+  .card_show_block6_text {
+    font-size: 10px;
+  }
+  .product_banner4_box {
+    width: 325px;
+    left: 11%;
   }
 }
 @media screen and (min-width: 441px) and (max-width: 465px) {
@@ -319,6 +366,19 @@
   }
   .banner2_btn {
     left: 30%;
+  }
+  .card_block6_box {
+    width: 169px;
+  }
+  .card_show_block6_heading {
+    font-size: 17px;
+  }
+  .card_show_block6_text {
+    font-size: 12px;
+  }
+  .product_banner4_box {
+    width: 399px;
+    left: 8%;
   }
 }
 @media screen and (min-width: 466px) and (max-width: 575px) {
@@ -408,6 +468,19 @@
   }
   .banner2_btn {
     left: 30%;
+  }
+  .card_block6_box {
+    width: 180px;
+  }
+  .card_show_block6_heading {
+    font-size: 18px;
+  }
+  .card_show_block6_text {
+    font-size: 13px;
+  }
+  .product_banner4_box {
+    width: 399px;
+    left: 8%;
   }
 }
 @media screen and (min-width: 576px) and (max-width: 690px) {
@@ -528,6 +601,26 @@
   }
   .banner_section2 {
     top: 15%;
+  }
+  .card_block6_box {
+    width: fit-content;
+    left: 3%;
+    top: 70%;
+  }
+  .card_show_block6_heading {
+    font-size: 12px;
+  }
+  .card_show_block6_text {
+    font-size: 7px;
+  }
+  .carousel_button_section3 {
+    width: 64px;
+    height: 22px;
+  }
+  .product_banner4_box {
+    width: fit-content;
+    left: 18%;
+    top: 75%;
   }
 }
 @media screen and (min-width: 691px) and (max-width: 1279px) {
@@ -655,6 +748,20 @@
   .banner_section2 {
     top: 15%;
   }
+  .card_block6_box {
+    width: fit-content;
+    left: 1%;
+    top: 70%;
+  }
+  .carousel_button_section3 {
+    width: 64px;
+    height: 22px;
+  }
+  .product_banner4_box {
+    width: fit-content;
+    left: 21%;
+    top: 75%;
+  }
 }
 @media screen and (min-width: 736px) and (max-width: 900px) {
   .product_banner1 {
@@ -678,6 +785,11 @@
   .product_banner3_box {
     left: 24%;
   }
+  .card_block6_box {
+    width: fit-content;
+    left: 5%;
+    top: 78%;
+  }
 }
 @media screen and (min-width: 901px) {
   .product_banner1 {
@@ -687,8 +799,11 @@
     top: 72%;
     left: 34%;
   }
-}
-@media screen and (min-width: 901px) {
+  .card_block6_box {
+    width: fit-content;
+    left: 17%;
+    top: 78%;
+  }
   .product_banner1 {
     left: 29%;
   }
@@ -709,6 +824,13 @@
   }
   .product_banner3_box {
     left: 30%;
+  }
+  .product_banner4 {
+    left: 41%;
+  }
+  .product_banner4_box {
+    left: 30%;
+    top: 80%;
   }
 }
 @media screen and (min-width: 1280px) {
@@ -805,6 +927,14 @@
   .product_banner3_box {
     left: 30%;
   }
+  .product_banner4 {
+    left: 36%;
+  }
+  .product_banner4_box {
+    width: fit-content;
+    left: 25%;
+    top: 77%;
+  }
 }
 @media screen and (min-width: 1296px) {
   .product_banner1 {
@@ -847,5 +977,16 @@
   }
   .banner_section2 {
     top: 20%;
+  }
+  .card_block6_box {
+    width: fit-content;
+    left: 24%;
+    top: 85%;
+  }
+  .game_button {
+    left: 24%;
+  }
+  .product_banner4_box {
+    left: 27%;
   }
 }
