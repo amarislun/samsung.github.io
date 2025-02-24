@@ -170,7 +170,7 @@
   left: 37%;
 }
 .list_footer {
-  width: 94px;  
+  width: 94px;
 }
 .fs_dropdown_header {
   font-size: 15px;
@@ -236,7 +236,7 @@
   }
   .list_footer {
     width: 115px;
-    height: 32px;  
+    height: 32px;
   }
 }
 @media screen and (min-width: 400px) and (max-width: 440px) {
@@ -315,7 +315,7 @@
   }
   .list_footer {
     width: 125px;
-    height: 35px;  
+    height: 35px;
   }
 }
 @media screen and (min-width: 441px) and (max-width: 465px) {
@@ -420,7 +420,7 @@
   }
   .list_footer {
     width: 132px;
-    height: 37px;  
+    height: 37px;
   }
 }
 @media screen and (min-width: 466px) and (max-width: 575px) {
@@ -529,7 +529,7 @@
   }
   .list_footer {
     width: 156px;
-    height: 44px;  
+    height: 44px;
   }
 }
 @media screen and (min-width: 576px) and (max-width: 690px) {
@@ -685,8 +685,14 @@
     font-size: 7px;
   }
   .footer_links_sm {
-    width: 191px;
+    width: fit-content;
     height: 15px;
+  }
+  .footer_img {
+    width: 100px;
+  }
+  .footer_text_p {
+    font-size: 6px;
   }
 }
 @media screen and (min-width: 691px) and (max-width: 1279px) {
@@ -834,6 +840,12 @@
   }
   input::placeholder {
     font-size: 10px;
+  }
+  .footer_img {
+    width: 100px;
+  }
+  .footer_text_p {
+    font-size: 12px;
   }
 }
 @media screen and (min-width: 736px) and (max-width: 900px) {
@@ -1011,6 +1023,10 @@
     left: 25%;
     top: 77%;
   }
+  .fs_links_hover:hover {
+    color: blue;
+    text-decoration: underline;
+  }
 }
 @media screen and (min-width: 1296px) {
   .product_banner1 {
@@ -1077,5 +1093,17 @@
   }
   .fs_sub_menu {
     font-size: 14px;
+  }
+  .fs_links_hover {
+    font-size: 10px;
+  }
+  .footer_img {
+    width: 167px;
+  }
+  .footer_text {
+    font-size: 12px;
+  }
+  .footer_text_p {
+    font-size: 12px;
   }
 }
