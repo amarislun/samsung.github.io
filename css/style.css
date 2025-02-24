@@ -26,6 +26,9 @@
 .p_fs {
   font-size: 9px;
 }
+.carousel_4_links {
+  margin-left: 39px;
+}
 .carousel_button {
   width: 90px;
   height: 35px;
@@ -832,6 +835,9 @@
     left: 30%;
     top: 80%;
   }
+  .fs_links_carousel4 {
+    font-size: 12px;
+  }
 }
 @media screen and (min-width: 1280px) {
   .p_fs {
@@ -988,5 +994,8 @@
   }
   .product_banner4_box {
     left: 27%;
+  }
+  .fs_links_carousel4 {
+    font-size: 20px;
   }
 }
