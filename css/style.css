@@ -1027,6 +1027,9 @@
     color: blue;
     text-decoration: underline;
   }
+  .footer_links {
+    font-size: 10px;
+  }
 }
 @media screen and (min-width: 1296px) {
   .product_banner1 {
