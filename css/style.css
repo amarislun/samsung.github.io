@@ -845,7 +845,7 @@
     width: 100px;
   }
   .footer_text_p {
-    font-size: 12px;
+    font-size: 6px;
   }
 }
 @media screen and (min-width: 736px) and (max-width: 900px) {
@@ -920,6 +920,9 @@
   .fs_links_carousel4 {
     font-size: 12px;
   }
+  .footer_text_p {
+    font-size: 10px;
+  }
 }
 @media screen and (min-width: 1280px) {
   .p_fs {
@@ -973,6 +976,9 @@
   }
   .fs_banner_text {
     font-size: 15px;
+  }
+  .footer_text_p {
+    font-size: 10px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -1028,6 +1034,9 @@
     text-decoration: underline;
   }
   .footer_links {
+    font-size: 10px;
+  }
+  .footer_text_p {
     font-size: 10px;
   }
 }
@@ -1107,6 +1116,6 @@
     font-size: 12px;
   }
   .footer_text_p {
-    font-size: 12px;
+    font-size: 10px;
   }
 }
